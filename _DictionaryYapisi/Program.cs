@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+
 namespace _DictionaryYapisi
 {
     class Program
@@ -37,6 +38,8 @@ namespace _DictionaryYapisi
             {
                 Console.Clear();
                 Console.WriteLine("Değerlerden birini yanlış girdiniz\n");
+                _group.Listeleme();
+                Console.WriteLine("");
                 for (int i = 0; i < i + 1; i++)
                 {
                     int _newNo;
